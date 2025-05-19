@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: #efefef;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80%;
+    letter-spacing: 0.15em;
+}
+
+#page{
+    border:4px double #000;
+    min-width: 720px;
+    max-width: 940px;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+#logo{
+    margin: 10px auto 25px auto;
+    text-align: center;
+}
+
+#navigation{
+   border-top: black solid 3.5px;
+   border-bottom: black solid 1px;
+   width: 570px;
+   margin: 0 auto 0 auto;
+   text-align: center;
+   padding: 10px;
+}
+
+li{
+    display: inline;
+}
+
+p {
+    width: 600px;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none ;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 6px 18px 5px 18px;
+
+}
+
+a:visited{
+    color: #cc3333;
+}
+
+a:hover , a:focus{
+    background-color: rgb(96, 94, 94);
+    color: antiquewhite;
+}
+
+a:active{
+    background-color: antiquewhite;
+    color:  rgb(96, 94, 94);
+}
